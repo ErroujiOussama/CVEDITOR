@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from PIL.ImageFilter import *
 from PIL import ImageEnhance
-import cv2
+#import cv2
 import matplotlib.pyplot as plt
 import numpy as np
 from io import BytesIO
@@ -175,14 +175,14 @@ if image:
         st.markdown("<h4 style='text-align: center;'>Histogram 📊</h4>", unsafe_allow_html=True)
         display_histogram(img)
         ##histogram egalisation
-        egalisation = st.checkbox("Egalisation d'histogramme")
-        if egalisation:
-            img = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2BGR)
-            img_yuv = cv2.cvtColor(img, cv2.COLOR_BGR2YUV)
-            img_yuv[:,:,0] = cv2.equalizeHist(img_yuv[:,:,0])
-            img = cv2.cvtColor(img_yuv, cv2.COLOR_YUV2RGB)
-            img = Image.fromarray(img)
-            display_histogram(img)
+        #egalisation = st.checkbox("Egalisation d'histogramme")
+        #if egalisation:
+            #img = cv2.cvtColor(np.array(img), cv2.COLOR_RGB2BGR)
+            #img_yuv = cv2.cvtColor(img, cv2.COLOR_BGR2YUV)
+            #img_yuv[:,:,0] = cv2.equalizeHist(img_yuv[:,:,0])
+            #img = cv2.cvtColor(img_yuv, cv2.COLOR_YUV2RGB)
+            #img = Image.fromarray(img)
+            #display_histogram(img)
 ### Download ###
     st.markdown("<h4 style='text-align: center;'>Download 📥</h4>", unsafe_allow_html=True)
     colD, colP = st.columns(2)
