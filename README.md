@@ -56,16 +56,6 @@ Streamlit CV Editor is a web application built using Streamlit that allows users
 - Matplotlib
 - NumPy
 
-## Contributing
-
-Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
-1. Fork the repository (`https://github.com/your-username/your-repo/fork`)
-2. Create your feature branch (`git checkout -b feature/YourFeature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin feature/YourFeature`)
-5. Open a pull request
-
 ## Acknowledgments
 
 - Streamlit Community
