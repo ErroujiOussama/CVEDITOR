@@ -1,4 +1,5 @@
 # Streamlit CV Editor 🎨
+![image](https://github.com/ErroujiOussama/CVEDITOR/assets/107694414/9f722d4b-3518-4a17-9221-181f28593135)
  ![image](https://github.com/ErroujiOussama/CVEDITOR/assets/107694414/c70b6a23-f64d-4551-b29a-7fdd7a5d815e)
  ![image](https://github.com/ErroujiOussama/CVEDITOR/assets/107694414/32a6f9fb-2e15-4ade-a8d5-2c7a1f1c7618)
 ![image](https://github.com/ErroujiOussama/CVEDITOR/assets/107694414/a254e5e1-f7a7-4ceb-a433-e38ef8eb0852)
