@@ -9,7 +9,7 @@ from io import BytesIO
 from base64 import b64encode
 ##############################################################################################################
 st.set_page_config(page_title="cveditor", page_icon="🎨", layout="centered", initial_sidebar_state="collapsed")
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False)
 ##############################################################################################################
 @st.cache_data
 def display_histogram(img):
